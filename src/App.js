@@ -12,8 +12,8 @@ function App() {
   return (
     <Router>
       <Header />
-      <main className='py-5 mb-5'>
-        <Container>
+      <main className='py-5 '>
+        <Container fluid>
           <Switch>
             <Route path='/register' component={RegisterPage} />
             <Route path='/login' component={LoginPage} />

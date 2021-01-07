@@ -14,7 +14,6 @@ const Header = () => {
               <Image className='logo' fluid src={logo} alt='Abilisense' />
             </Navbar.Brand>
           </LinkContainer>
-          {/* Since we can't access history direct from SearchBox we need to send it using render prop */}
 
           <Navbar.Toggle aria-controls='basic-navbar-nav' />
           <Navbar.Collapse id='basic-navbar-nav'>
