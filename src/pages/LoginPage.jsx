@@ -42,6 +42,7 @@ const LoginPage = ({ location, history }) => {
             placeholder='Enter email'
             value={email}
             onChange={(e) => setEmail(e.target.value)}
+            required
           ></Form.Control>
         </Form.Group>
 
@@ -52,6 +53,8 @@ const LoginPage = ({ location, history }) => {
             placeholder='Enter password'
             value={password}
             onChange={(e) => setPassword(e.target.value)}
+            required
+            minLength={6}
           ></Form.Control>
         </Form.Group>
         <Button type='submit' variant='info'>
@@ -63,7 +66,7 @@ const LoginPage = ({ location, history }) => {
         <Col>
           New Customer?
           <Link to={redirect ? `/register?redirect=${redirect}` : '/register'}>
-            Register
+            &nbsp;Register
           </Link>
         </Col>
       </Row>

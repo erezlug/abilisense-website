@@ -3,7 +3,7 @@ import { Container } from 'react-bootstrap'
 
 const Homepage = () => {
   return (
-    <Container fluid className='mb-5'>
+    <Container fluid className='mb-1 '>
       <video
         controls
         className='homepage-video'

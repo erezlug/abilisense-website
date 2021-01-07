@@ -12,7 +12,7 @@ function App() {
   return (
     <Router>
       <Header />
-      <main className='py-5 '>
+      <main className='py-3 '>
         <Container fluid>
           <Switch>
             <Route path='/register' component={RegisterPage} />

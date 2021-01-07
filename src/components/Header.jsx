@@ -7,9 +7,9 @@ import logo from '../../src/assets/logo.png'
 const Header = () => {
   return (
     <header>
-      <Navbar variant='dark' className='fixed-top' expand='lg' collapseOnSelect>
+      <Navbar variant='dark' expand='lg' collapseOnSelect>
         <Container>
-          <LinkContainer color='#fff' to='/'>
+          <LinkContainer to='/'>
             <Navbar.Brand>
               <Image className='logo' fluid src={logo} alt='Abilisense' />
             </Navbar.Brand>
