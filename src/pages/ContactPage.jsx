@@ -53,7 +53,11 @@ const ContactPage = () => {
             />
             <label for='terms'>
               I have read and agreed with{' '}
-              <a href=''>the terms and conditions.</a>
+              <strong>
+                <a className='terms-link' href=''>
+                  the terms and conditions.
+                </a>
+              </strong>
             </label>
           </li>
 

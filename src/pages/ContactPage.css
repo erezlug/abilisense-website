@@ -4,7 +4,7 @@
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 :root {
   --white: #afafaf;
-  --red: #e31b23;
+  --red: rgb(226, 52, 87);
   --bodyColor: #292a2b;
   --borderFormEls: hsl(0, 0%, 10%);
   --bgFormEls: hsl(0, 0%, 14%);
@@ -105,8 +105,7 @@ ul {
 .my-form input:focus,
 .my-form textarea:focus,
 .my-form button:enabled:hover,
-.my-form button:focus,
-.my-form input[type='checkbox']:focus + label {
+.my-form button:focus {
   background: var(--bgFormElsFocus);
 }
 
@@ -134,6 +133,13 @@ ul {
 .my-form *:disabled {
   cursor: default;
   filter: blur(2px);
+}
+
+.terms-link {
+  transition: color 0.3s ease;
+}
+.terms-link:hover {
+  color: var(--red);
 }
 
 /* FORM BTNS
