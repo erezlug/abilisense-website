@@ -9,6 +9,7 @@ const Footer = () => {
         <Row>
           <Col className='text-center py-3'>
             <Link
+              className='social-links'
               to={{
                 pathname: 'https://www.linkedin.com/company/abilisense/',
               }}
@@ -18,7 +19,7 @@ const Footer = () => {
             </Link>
 
             <Link
-              className='mx-4'
+              className='social-links mx-4'
               to={{
                 pathname: 'https://www.facebook.com/AbiliSense/',
               }}
@@ -28,6 +29,7 @@ const Footer = () => {
             </Link>
 
             <Link
+              className='social-links'
               to={{
                 pathname: 'https://twitter.com/abilisense?lang=en',
               }}

@@ -7,6 +7,7 @@ import RegisterPage from './pages/RegisterPage'
 import LoginPage from './pages/LoginPage'
 import ErrorPage from './pages/ErrorPage'
 import Footer from './components/Footer'
+import ContactPage from './pages/ContactPage'
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Switch>
             <Route path='/register' component={RegisterPage} />
             <Route path='/login' component={LoginPage} />
+            <Route path='/contact' component={ContactPage} />
             <Route exact path='/' component={Homepage} />
             <Route path='*' component={ErrorPage} />
           </Switch>
