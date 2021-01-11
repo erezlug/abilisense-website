@@ -24,7 +24,7 @@ const Header = () => {
               <LinkContainer to='/platform'>
                 <Nav.Link>Platform</Nav.Link>
               </LinkContainer>
-              <LinkContainer to='/Technology'>
+              <LinkContainer to='/tech'>
                 <Nav.Link>Technology</Nav.Link>
               </LinkContainer>
               <LinkContainer to='/use-cases'>

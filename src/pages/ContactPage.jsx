@@ -10,9 +10,9 @@ const ContactPage = () => {
       <div className='form-container'>
         <h2>Get In touch!</h2>
         <p>
-          We’re happy to hear from you. Contact us today to learn more about our
-          smart listening technology and how you can benefit by collaborating
-          with us.
+          <strong>We’re happy to hear from you.</strong> <br /> Contact us today
+          to learn more about our smart listening technology <br /> and how you
+          can benefit by collaborating with us.
         </p>
         <ul>
           <li>
@@ -54,7 +54,7 @@ const ContactPage = () => {
             <label for='terms'>
               I have read and agreed with{' '}
               <strong>
-                <a className='terms-link' href=''>
+                <a className='terms-link' href='#terms'>
                   the terms and conditions.
                 </a>
               </strong>
