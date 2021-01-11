@@ -56,6 +56,10 @@ main {
   height: 100%;
 }
 
+.use-cases-container img {
+  width: 450px;
+  height: 350px;
+}
 /* Footer */
 footer {
   margin-top: auto;
@@ -66,4 +70,16 @@ footer .social-links i {
 
 footer .social-links i:hover {
   color: var(--red);
+}
+
+/* MQ */
+
+@media (min-width: 992px) {
+  /* .use-cases-container {
+    flex-wrap: none;
+    flex-direction: row;
+  } */
+  .header-login-link {
+    margin-left: 5rem;
+  }
 }

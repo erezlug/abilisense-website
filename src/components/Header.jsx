@@ -2,7 +2,7 @@ import React from 'react'
 import { Route } from 'react-router-dom'
 import { LinkContainer } from 'react-router-bootstrap'
 import { Navbar, Nav, Container, Image } from 'react-bootstrap'
-import logo from '../../src/assets/logo.png'
+import logo from '../../src/assets//img/logo.png'
 
 const Header = () => {
   return (
