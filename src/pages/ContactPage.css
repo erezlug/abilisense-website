@@ -2,14 +2,14 @@
 
 /* RESET RULES
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-:root {
+/* :root {
   --white: #afafaf;
   --red: rgb(226, 52, 87);
   --bodyColor: #292a2b;
   --borderFormEls: hsl(0, 0%, 10%);
   --bgFormEls: hsl(0, 0%, 14%);
   --bgFormElsFocus: hsl(0, 7%, 20%);
-}
+} */
 
 a {
   color: inherit;
@@ -132,7 +132,8 @@ ul {
 
 .my-form *:disabled {
   cursor: default;
-  filter: blur(2px);
+  opacity: 0.2;
+  /* filter: blur(2px); */
 }
 
 .terms-link {
